@@ -1,0 +1,44 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #193549;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 25px 0;
+}
+
+.js {
+  color: var(--base);
+}
+
+input {
+  width: 100px;
+}
+
+.controls {
+  margin: 40px 0;
+}
+
+.controls input {
+  color: white;
+}
+img {
+  width: 50%;
+  padding: var(--spacing);
+  background-color: var(--base);
+  filter: blur(var(--blur));
+  -webkit-filter: blur(var(--blur));
+}
